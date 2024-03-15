@@ -12,3 +12,5 @@
 ![工程圖-平面](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%B0%B8%E5%85%83%E8%B7%AF_%E5%B9%B3%E9%9D%A2%E5%9C%96.png?raw=true)
 
 ![手繪平面圖](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%A0%BC%E5%B1%80_%E6%89%8B%E7%B9%AA.jpeg?raw=true)
+
+![Layout草稿]([https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%A0%BC%E5%B1%80_%E6%89%8B%E7%B9%AA.jpeg?raw=true](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/SCR-20240315-tryv.png?raw=true)https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/SCR-20240315-tryv.png?raw=true)
