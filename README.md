@@ -13,4 +13,4 @@
 
 ![手繪平面圖](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%A0%BC%E5%B1%80_%E6%89%8B%E7%B9%AA.jpeg?raw=true)
 
-![Layout草稿](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/SCR-20240315-tryv.png?raw=true)
+![Layout草稿](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%B0%B8%E5%85%83%E8%B7%AF-%E5%AE%A4%E5%85%A7%E8%A6%8F%E5%8A%83%E7%B0%A1%E5%9C%96.png?raw=true)
