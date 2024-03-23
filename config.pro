@@ -1202,3 +1202,13 @@ mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuTree`;
 mapkey re @MAPKEY_NAME草繪參照;@MAPKEY_LABEL參照;~ Command `ProCmdSketReferences`;
 mapkey sc @MAPKEY_LABEL中心線;~ Command `ProCmdSketCenterline`  1;
 mapkey dd @MAPKEY_LABEL尺寸標註;~ Command `ProCmdSketDimension`  1;
+mapkey ed @MAPKEY_LABELEdit Definition;\
+mapkey(continued) ~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node3`;\
+mapkey(continued) ~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`;\
+mapkey(continued) ~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
+mapkey(continued) ~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
+mapkey(continued) ~ Command `ProCmdRedefine@PopupMenuTree`;
+mapkey rr @MAPKEY_NAMEOpen generic modle (\%e44);@MAPKEY_LABELOpen;\
+mapkey(continued) ~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`;\
+mapkey(continued) ~ Close `rmb_popup` `PopupMenu`;\
+mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuGraphicWinStack`;
