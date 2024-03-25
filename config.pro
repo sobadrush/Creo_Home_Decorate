@@ -1212,3 +1212,11 @@ mapkey rr @MAPKEY_NAMEOpen generic modle (\%e44);@MAPKEY_LABELOpen;\
 mapkey(continued) ~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`;\
 mapkey(continued) ~ Close `rmb_popup` `PopupMenu`;\
 mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuGraphicWinStack`;
+mapkey rr @MAPKEY_LABEL開啟零件;\
+mapkey(continued) ~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`;\
+mapkey(continued) ~ Close `rmb_popup` `PopupMenu`;\
+mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuGraphicWinStack`;
+mapkey re @MAPKEY_LABEL參照;~ Command `ProCmdSketReferences`;
+mapkey sc @MAPKEY_LABEL中心線;~ Command `ProCmdSketCenterline`  1;
+mapkey dd @MAPKEY_LABEL標註尺寸;~ Command `ProCmdSketDimension`  1;
+mapkey ss @MAPKEY_LABEL選取;~ Command `ProCmdEditOneByOne`  1;
