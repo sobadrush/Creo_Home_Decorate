@@ -8,7 +8,7 @@
 
 ![Creo 3D模型_2](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%B0%B8%E5%85%83%E8%B7%AF_%E6%A8%A1%E5%9E%8B_2.png?raw=true)
 
-![Creo 3D模型_3]([https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%B0%B8%E5%85%83%E8%B7%AF_%E6%A8%A1%E5%9E%8B_2.png?raw=true](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%B0%B8%E5%85%83%E8%B7%AF-%E5%AE%A4%E5%85%A7%E8%A6%8F%E5%8A%833D.png?raw=true))
+![Creo 3D模型_3](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%B0%B8%E5%85%83%E8%B7%AF-%E5%AE%A4%E5%85%A7%E8%A6%8F%E5%8A%833D.png)
 
 
 ![工程圖-平面](https://github.com/sobadrush/Creo_Home_Decorate/blob/main/readme_images/%E6%B0%B8%E5%85%83%E8%B7%AF_%E5%B9%B3%E9%9D%A2%E5%9C%96.png?raw=true)
