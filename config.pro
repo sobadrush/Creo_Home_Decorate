@@ -1,6 +1,4 @@
-﻿mapkey ss @MAPKEY_NAME草繪選取;@MAPKEY_LABEL草繪選取;\
-mapkey(continued) ~ Command `ProCmdEditOneByOne`  1;
-!========================================================================
+﻿!========================================================================
 !==                                                                    ==
 !==                【 Pro/E Creo3.0 】                                 ==
 !==        將 E:\ME Work 取代為你自己的 User-Def/ 目錄放置處           ==
@@ -862,22 +860,257 @@ step_export_format ap214_cd
 !==                【 Pro/E Creo3.0 】                                 ==
 !==        將 E:\ME Work 取代為你自己的 User-Def/ 目錄放置處           ==
 !========================================================================
+
+!======== 顯示基準軸/面名稱 ================
+
+!======== 2D 出圖線框粗細 ================
+
+!=========================================================
+!== Plotting setup ==
+!=========================================================
+
+!=========================================================
+!== Tolerance Setup ==
+!=========================================================
+
+!=========================================================
+!== LAYER DEFAULTS ==
+!=========================================================
+
+!=========================================================
+!== SKETCH DEFAULTS ==
+!=========================================================
+!sketcher_dec_places 2
+
+!=========================================================
+!Pen Weight Setting
+!=========================================================
+
+!=========================================================
+!= Environment Options ==
+!=========================================================
+cadam_line_weights medium
+!***000=black
+
+!===============================================================================
+!========【取消組件中非激活零件的透明顯示方式：shaded_only 、always、never】====
+!===============================================================================
+
+!========【樣板元件】===========================================================
+!===============================================================================
+
+show_shaded_edges yes
+step_export_format ap214_cd
+
+!==========================================================
+!== Window Setup ==
+!==========================================================
+!NOTE: must exit Proe
+!==========================================================
+!== SAVE/RETRIEVE OPTIONS ==
+!==========================================================
+!==========================================================
+!== DRAWING STANDARDS ==
+!==========================================================
+!====================================================
+!== Mapkeys by user define ==
+!===================================================
+
+!===========================【量測距離長度】================================
+
+
+!===========================【再生】================================
+
+!===========================【白色背景】================================
+
+!===========================【深色背景】================================
+
+!===========================【Six View】=================================
+
+
+
+
+
+
+!============================【草繪on基準面後Extrude】===================================
+
+!============================【Extrude】===================================
+
+!===========================【View manager】================================
+
+!===========================【草繪】================================
+
+!===========================【新增組件】================================
+
+!===========================【新增零件】================================
+
+!===========================【顯示相關】================================
+
+!===========================【整體干涉】================================
+
+!===========================【編輯特徵】================================
+
+!===========================【適當大小】================================
+
+!===========================【草繪轉正】================================
+
+!===========================【啟動PRT】================================
+
+!===========================【截面】================================
+
+!===========================【隱藏】================================
+
+!===========================【取消隱藏】================================
+
+mapkey oo @MAPKEY_NAME開啟零件;@MAPKEY_LABELopen_part;\
+mapkey(continued) ~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node16`;\
+mapkey(continued) ~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node16`;\
+mapkey(continued) ~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`;\
+mapkey(continued) ~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
+mapkey(continued) ~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
+mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuTree`;
+mapkey sc @MAPKEY_LABEL中心線;~ Command `ProCmdSketCenterline`  1;
+mapkey ed @MAPKEY_LABELEdit Definition;\
+mapkey(continued) ~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node3`;\
+mapkey(continued) ~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`;\
+mapkey(continued) ~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
+mapkey(continued) ~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
+mapkey(continued) ~ Command `ProCmdRedefine@PopupMenuTree`;
+mapkey rr @MAPKEY_LABEL開啟零件;\
+mapkey(continued) ~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`;\
+mapkey(continued) ~ Close `rmb_popup` `PopupMenu`;\
+mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuGraphicWinStack`;
+mapkey re @MAPKEY_LABEL參照;~ Command `ProCmdSketReferences`;
+mapkey dd @MAPKEY_LABEL標註尺寸;~ Command `ProCmdSketDimension`  1;
+mapkey ss @MAPKEY_LABEL選取;~ Command `ProCmdEditOneByOne`  1;
+!========================================================================
+!==                                                                    ==
+!==                【 Pro/E Creo3.0 】                                 ==
+!==        將 E:\ME Work 取代為你自己的 User-Def/ 目錄放置處           ==
+!========================================================================
+
+!======== 顯示基準軸/面名稱 ================
+
+!======== 2D 出圖線框粗細 ================
+
+!=========================================================
+!== Plotting setup ==
+!=========================================================
+
+!=========================================================
+!== Tolerance Setup ==
+!=========================================================
+
+!=========================================================
+!== LAYER DEFAULTS ==
+!=========================================================
+
+!=========================================================
+!== SKETCH DEFAULTS ==
+!=========================================================
+!sketcher_dec_places 2
+
+!=========================================================
+!Pen Weight Setting
+!=========================================================
+
+!=========================================================
+!= Environment Options ==
+!=========================================================
+cadam_line_weights medium
+!***000=black
+
+!===============================================================================
+!========【取消組件中非激活零件的透明顯示方式：shaded_only 、always、never】====
+!===============================================================================
+
+!========【樣板元件】===========================================================
+!===============================================================================
+
+show_shaded_edges yes
+step_export_format ap214_cd
+
+!==========================================================
+!== Window Setup ==
+!==========================================================
+!NOTE: must exit Proe
+!==========================================================
+!== SAVE/RETRIEVE OPTIONS ==
+!==========================================================
+!==========================================================
+!== DRAWING STANDARDS ==
+!==========================================================
+!====================================================
+!== Mapkeys by user define ==
+!===================================================
+
+!===========================【量測距離長度】================================
+
+
+!===========================【再生】================================
+
+!===========================【白色背景】================================
+
+!===========================【深色背景】================================
+
+!===========================【Six View】=================================
+
+
+
+
+
+
+!============================【草繪on基準面後Extrude】===================================
+
+!============================【Extrude】===================================
+
+!===========================【View manager】================================
+
+!===========================【草繪】================================
+
+!===========================【新增組件】================================
+
+!===========================【新增零件】================================
+
+!===========================【顯示相關】================================
+
+!===========================【整體干涉】================================
+
+!===========================【編輯特徵】================================
+
+!===========================【適當大小】================================
+
+!===========================【草繪轉正】================================
+
+!===========================【啟動PRT】================================
+
+!===========================【截面】================================
+
+!===========================【隱藏】================================
+
+!===========================【取消隱藏】================================
+
+!========================================================================
+!==                                                                    ==
+!==                【 Pro/E Creo3.0 】                                 ==
+!==        將 E:\ME Work 取代為你自己的 User-Def/ 目錄放置處           ==
+!========================================================================
 template_new_ecadasm $PRO_DIRECTORY\templates\inlbs_ecad_asm.asm
 template_drawing $PRO_DIRECTORY\templates\c_drawing.drw
 template_boardpart $PRO_DIRECTORY\templates\inlbs_ecad_board.prt
 tolerance_standard ansi
 weld_ui_standard ansi
 search_path_file $CREO_COMMON_FILES\afx\parts\prolibrary\search.pro
-start_model_dir E:\ME work\User-Def\Start
-pro_dtl_setup_dir E:\ME work\User-Def\Config
-pro_format_dir E:\ME work\User-Def\Format
-format_setup_file E:\ME work\User-Def\Config\good-format.dtl
-drawing_setup_file E:\ME work\User-Def\Config\drawing.dtl
+start_model_dir E:\ME Work\User-Def\Start
+pro_dtl_setup_dir E:\ME Work\User-Def\Config
+pro_format_dir E:\ME Work\User-Def\Format
+format_setup_file E:\ME Work\User-Def\Config\good-format.dtl
+drawing_setup_file E:\ME Work\User-Def\Config\drawing.dtl
 system_colors_file E:\ME Work\User-Def\Config\syscol.scl
-pro_symbol_dir E:\ME work\User-Def\Symbol
+pro_symbol_dir E:\ME Work\User-Def\Symbol
 mdl_tree_cfg_file E:\ME work\User-Def\Config\tree.cfg
 pro_plot_config_dir E:\ME Work\User-Def\PLOTTER
-pro_colormap_path E:\ME work\User-Def\Color\
+pro_colormap_path E:\ME Work\User-Def\Color\
 trail_dir E:\ME Work
 
 !======== 顯示基準軸/面名稱 ================
@@ -886,7 +1119,7 @@ display_axes no
 display_axis_tags yes
 
 !======== 2D 出圖線框粗細 ================
-pen_table_file E:\ME work\User-Def\Config\table.pnt
+pen_table_file E:\ME Work\User-Def\Config\table.pnt
 
 !=========================================================
 !== Plotting setup ==
@@ -1055,7 +1288,6 @@ mapkey nn @MAPKEY_NAMESelection No Hightlight;@MAPKEY_LABELlenth measure;\
 mapkey(continued) ~ Command `ProCmdNaMeasureLength`;
 
 !===========================【再生】================================
-mapkey rr @MAPKEY_LABELregenerate;~ Command `ProCmdRegenAuto`;
 
 !===========================【白色背景】================================
 mapkey ww @MAPKEY_LABELwhite background;~ Select `main_dlg_cur` `appl_casc`;\
@@ -1148,12 +1380,6 @@ mapkey $F9 @MAPKEY_LABEL整體干涉;~ Command `ProCmdNaModelGlobalInterfe` ;\
 mapkey(continued) ~ Activate `nma_model_global_interference` `compute_btn`;
 
 !===========================【編輯特徵】================================
-mapkey ed @MAPKEY_LABEL編輯特徵;\
-mapkey(continued) ~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node18`;\
-mapkey(continued) ~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`;\
-mapkey(continued) ~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
-mapkey(continued) ~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
-mapkey(continued) ~ Command `ProCmdRedefine@PopupMenuTree`;
 
 !===========================【適當大小】================================
 mapkey qw @MAPKEY_LABEL適當大小;~ Command `ProCmdViewRefit`;
@@ -1192,31 +1418,3 @@ mapkey(continued) ~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
 mapkey(continued) ~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
 mapkey(continued) ~ Command `ProCmdUnhideFeat_PushBtn@PopupMenuTree`;
 
-mapkey oo @MAPKEY_NAME開啟零件;@MAPKEY_LABELopen_part;\
-mapkey(continued) ~ Select `main_dlg_cur` `PHTLeft.AssyTree` 1 `node16`;\
-mapkey(continued) ~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node16`;\
-mapkey(continued) ~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`;\
-mapkey(continued) ~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
-mapkey(continued) ~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
-mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuTree`;
-mapkey re @MAPKEY_NAME草繪參照;@MAPKEY_LABEL參照;~ Command `ProCmdSketReferences`;
-mapkey sc @MAPKEY_LABEL中心線;~ Command `ProCmdSketCenterline`  1;
-mapkey dd @MAPKEY_LABEL尺寸標註;~ Command `ProCmdSketDimension`  1;
-mapkey ed @MAPKEY_LABELEdit Definition;\
-mapkey(continued) ~ RButtonArm `main_dlg_cur` `PHTLeft.AssyTree` `node3`;\
-mapkey(continued) ~ PopupOver `main_dlg_cur` `PM_PHTLeft.AssyTree` 1 `PHTLeft.AssyTree`;\
-mapkey(continued) ~ Open `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
-mapkey(continued) ~ Close `main_dlg_cur` `PM_PHTLeft.AssyTree`;\
-mapkey(continued) ~ Command `ProCmdRedefine@PopupMenuTree`;
-mapkey rr @MAPKEY_NAMEOpen generic modle (\%e44);@MAPKEY_LABELOpen;\
-mapkey(continued) ~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`;\
-mapkey(continued) ~ Close `rmb_popup` `PopupMenu`;\
-mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuGraphicWinStack`;
-mapkey rr @MAPKEY_LABEL開啟零件;\
-mapkey(continued) ~ Timer `UI Desktop` `UI Desktop` `popupMenuRMBTimerCB`;\
-mapkey(continued) ~ Close `rmb_popup` `PopupMenu`;\
-mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuGraphicWinStack`;
-mapkey re @MAPKEY_LABEL參照;~ Command `ProCmdSketReferences`;
-mapkey sc @MAPKEY_LABEL中心線;~ Command `ProCmdSketCenterline`  1;
-mapkey dd @MAPKEY_LABEL標註尺寸;~ Command `ProCmdSketDimension`  1;
-mapkey ss @MAPKEY_LABEL選取;~ Command `ProCmdEditOneByOne`  1;
